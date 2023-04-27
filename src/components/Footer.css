@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.footer-container {
+  background-color: #1A2639;
+  opacity: 75%;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.footer-logo {
+  flex: 1 1 20%;
+}
+
+.footer-links {
+  flex: 1 1 20%;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #C5C5C5;
+}
+
+.footer-social {
+  flex: 1 1 20%;
+}
+
+.footer-social ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social li {
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #C5C5C5;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-container:hover {
+    opacity: 1;
+}

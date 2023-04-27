@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1A2639; /* updated background color to dark blue */
+  color: #FFFFFF; /* updated text color to white */
+  opacity: 75%;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: background-color 0.2s ease-in-out; /* added transition effect */
+}
+
+.experience-container:hover {
+  opacity: 1; /* changed background color on hover */
+}
+
+.experience-info {
+  padding: 20px;
+}
+
+.experience-info h3 {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.experience-info h4 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.experience-info p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.experience-info ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.experience-info li {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 1.5em;
+}
+
+

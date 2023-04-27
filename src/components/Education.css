@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.education-container {
+  display: flex;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1A2639;
+  color: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 75%;
+}
+
+.education-info {
+  flex: 1;
+  margin-right: 40px;
+  padding-left: 1.5em;
+}
+
+.education-info h3 {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.education-info p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.education-info ul {
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+.education-info li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.education-img {
+  flex: 1;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.education-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.header-link:hover {
+    color: #C5C5C5;
+}
+.education-container:hover{
+    opacity: 1;
+}
