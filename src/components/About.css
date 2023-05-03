@@ -10,6 +10,7 @@
     border-radius: 10px;
     padding: 20px;
     opacity: 0.8;
+    margin-right: 20px;
   }
   
   .about-title {
@@ -26,6 +27,8 @@
   }
   
   .about-container:hover {
+    transform: scale(1.05);
+    transition: transform 0.4s ease-in-out;
     opacity: 1;
   }
   
